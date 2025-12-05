@@ -14,7 +14,8 @@ body {
   background-color: #364759;
 }
 
-.link-bar a {
+.link-bar a,
+main a {
   color: #f0faff;
 }
 
@@ -25,7 +26,7 @@ header {
 }
 
 header img {
-  width: 180px;
+  width: 200px;
   padding-left: 2.5rem;
   padding-block: 1rem;
 }
@@ -44,6 +45,98 @@ li {
 li a {
   text-decoration: none;
   padding-right: 1.5rem;
+}
+
+/* MAIN */
+
+main {
+  background-color: #e9edee;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+main a {
+  text-decoration: none;
+}
+
+main section:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+section p {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #07080a;
+}
+
+.gift-cards {
+  background-color: #f56600;
+  font-size: 1.5rem;
+  padding-block: 0.5rem;
+}
+
+.gift-guides {
+  background-image: url(../images/bg-image.png);
+  background-size: contain;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #edf1f4;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+
+.gift-guides a {
+  font-size: 2.5rem;
+}
+
+.gift-guides h2 {
+  padding-top: 2.5rem;
+}
+
+.perfect-gift {
+  text-align: left;
+}
+
+.perfect-gift p {
+  padding-bottom: 1.5rem;
+}
+.cards {
+  display: inline-block;
+  text-align: center;
+}
+
+.cards div {
+  display: inline-block;
+  max-width: 23%;
+}
+
+.cards div:not(:last-child) {
+  margin-right: 2.7rem;
+}
+
+.cards img {
+  height: 520px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2rem;
+  box-shadow: 20px 20px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.shopping-link {
+  color: #1b7a8f;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-left: 1rem;
+}
+
+.perfect-gift {
+  background-color: #ffffff;
+  padding: 1.5rem;
+}
+
+.shop-category img {
+  width: 100%;
 }
 
 /* FOOTER */
